@@ -1,0 +1,25 @@
+/* *{} - стили ко всем элементам */
+*{
+  color: aquamarine;
+}
+
+/* tag - стили к конкретному тэгу */
+
+p{
+  color: darkblue;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .class-name - стили для определенного класса */
+.fheading{
+  color: coral;
+}
+
+/* #id-name - стили для определенного айди э-та */
+
+#third-heading{
+  font-style: 40px;
+}

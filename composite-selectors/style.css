@@ -1,0 +1,66 @@
+/* tag,
+tag2,
+tag3 - стили, прмененные к эл-там через запятую */
+
+h1,
+span,
+p{
+  color: darkolivegreen;
+}
+
+/* tag tag1 - селектор - потомок */
+
+div p {
+  font-style: italic;
+  color: seagreen;
+}
+
+div p span{
+  color: violet;
+}
+
+/* tag > tag1 - селектор ПРЯМОГО потомка */
+
+ul li > span{
+  font-weight: 700;
+}
+
+/* tag tag1 + tag1 - Комбинатор следующего соседнего элемента */
+
+ul li + li{
+  color: burlywood;
+}
+
+/* tag ~ tag2 - Комбинатор всех соседних элементов */
+
+br ~ p{
+  text-decoration: line-through;
+}
+
+
+/* tag[attribute] - Этот селектор выбирает все элементы, имеющие данный атрибут или атрибут с определённым значением. */
+a[target]{
+  background-color: red;
+  text-decoration: none;
+  color: aliceblue;
+}
+a[target='_blank']{
+
+  color: aliceblue;
+}
+
+
+/* tag[attr^="bac"] - проверяет с начала
+tag[attr$=".png"] - проверяет с конца
+tag[attr*="link"]*/
+a[href^="http://git1"]{
+  font-size: 50px;
+}
+
+a[href$=".jpg"]{
+  background-color: darkcyan;
+}
+
+a[href*="link"]{
+  background-color: rgb(220, 213, 20);
+}
