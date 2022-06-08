@@ -1,0 +1,52 @@
+a{
+  color: blak;
+  text-decoration: none;
+}
+
+/* tag:hover - меняет вид, при навелении */
+a:hover{
+  color: tomato;
+}
+
+/* tag:visited - меняет вид, при посещении ссылки */
+a:visited{
+  background-color: rgb(59, 132, 235);
+}
+
+/* tag:active - моняет вид, когда элем. активен */
+a:active{
+  color: greenyellow;
+}
+
+/* tag.focus - при перемещении на странице с помощью таба */
+a:focus{
+  color: rgb(210, 30, 147);
+}
+
+/* tag::first-letter - при стилизации первой буквы,
+tag::first-line - при стилизации первой линии */
+p::first-letter{
+  font-size: 50px;
+}
+
+p::first-line{
+  text-decoration: underline;
+}
+
+/* tag::selection - при выделении текста */
+
+p::selection{
+  background-color: rgb(238, 255, 0);
+  color: rgb(195, 0, 0);
+}
+
+/* tag::after - контент в конце элемента
+tag::before -  контент с начала элемента*/
+
+h1::after{
+  content: 'top!';
+}
+
+h1::before{
+  content: '12345';
+}
