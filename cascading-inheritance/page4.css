@@ -1,0 +1,47 @@
+/* p{
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.style1{
+  background-color: aqua;
+  color: black;
+  border: none !important;
+}
+
+#style2{
+  background-color: pink;
+  border: 2px solid black;
+}
+
+p{
+  background-color: gray;
+} */
+
+/* КАСКАДНОСТЬ */
+/* ------------------------- */
+/* !important - означает, что свойство важное(не используется
+в современной верстке */
+/* id имеет больше спецефичность чем class  */
+/* КАСКАДНОСТЬ - 3 ПРАВИЛА:
+1.СПЕЦИФОЧНОСТЬ
+2.ПОРЯДОК В ДОКУМЕНТЕ
+3.ВАЖНОСТЬ */
+
+/* НАСЛЕДОВАНИЕ */
+/* ----------------------------------- */
+
+body{
+  color: red;
+  border: 1px solid black;
+  margin: 30px;
+}
+
+/* style: inherit - наследование стилей(примен.редко */
+p{
+  border: inherit;
+  margin:inherit;
+}
+
+/*!!! у браузера есть дефолтные стили!!! */

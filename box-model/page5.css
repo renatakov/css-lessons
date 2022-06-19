@@ -1,0 +1,40 @@
+span,
+div{
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 30px 40px;
+border: 3px solid red;
+
+
+}
+
+/* display - расположение
+display:inline; - строчное расположение
+display:block; - блочное расположение
+display:inline-block; - строчно-блочное расположение */
+/* ------------------------------- */
+/* padding - внутр. отступы
+margin - внешние отступы */
+/* !!! отступы распредиляются по часовой стрелке - сверху, справа,
+снизу, слева!!!
+------------------------------
+!!!можно сократить запись - margin: 10px 20px;
+сначала отступы снизу и сверху , потом отступы слева и справа!!! */
+
+.test{
+  display: inline;
+}
+
+
+/* box-sizing определяет как вычисляется
+  общая ширина и высота элемента.
+  -------------------------------
+  box-sizing: content-box - значение по умолчанию*/
+
+.mar{
+  margin-top: 50px;
+  display:inline-block;
+  box-sizing: content-box;
+}
