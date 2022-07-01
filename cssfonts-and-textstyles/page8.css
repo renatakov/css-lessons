@@ -1,0 +1,42 @@
+/* font-family - название шрифта */
+/* font-style - стиль шрифта */
+/* font-size - размер шрифта */
+
+/* body{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 40px;
+} */
+
+/* @font-face - подкл. шрифта*/
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular/ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* color - цвет текста */
+/* text-decoration - подчеркивания текста */
+/*letter-spacing - расстояние между буквами */
+/* word-spacing - расстояние между словами */
+/* line-height - межстрочный интервал */
+/* text-transform - трансформация текста */
+/* text-align - положение текста */
+h1{
+  color: blueviolet;
+  text-decoration: overline;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  line-height: 100px;
+  text-transform: uppercase;
+  text-align: center;
+};
+
+p{
+  text-align: justify;
+};
