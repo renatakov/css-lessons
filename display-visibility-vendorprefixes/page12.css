@@ -1,0 +1,8 @@
+.first{
+  display: none;
+}
+
+.second{
+  /* opacity: 0;*/
+  color: transparent;
+}
