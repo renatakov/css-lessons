@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+
+  /* background-color: gainsboro;
+  background-image: url(https://images.pexels.com/photos/691571/pexels-photo-691571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-size: auto 300px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed; */
+
+  background: url(https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png)
+      center no-repeat,
+    url(https://images.pexels.com/photos/691571/pexels-photo-691571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+/* background-color: color - цвет фона */
+/* background-size: хpx, cover - размер фона
+contain - трансформирует фоновое изоб.Подстраивается под ширину
+и высоту экрана
+cover - заставляет соответсвовать ширине и высоте элемента*/
+/* background-image: url(https://images.pexels.com/photos/6915
+71/pexels-photo-691571.jpeg); - картинка, фото фона */
+/*background-repeat: no-repeat - без повторений картинки
+  background-repeat: repeat-х - повтор. фона по горизонтали
+  background-repeat: repeat-у - повтор.фона по вертикали
+  background-position: 50% 50%; - устанавливает начальную
+  позицию для каждого фонового изображения. */
+  /* background-attachment: fixed; - Фон фиксируется
+  относительно области просмотра. Даже если элемент имеет
+  механизм прокрутки, фон не перемещается вместе с элементом.
+  */
+
+  /* background-attachment: local; -
+  Фон фиксируется относительно содержимого элемента.
+  Если элемент имеет механизм прокрутки, фон прокручивается с
+  содержимым элемента, и область рисования фона и область
+  позиционирования фона относятся к прокручиваемой области
+  элемента, а не к границе,
+  обрамляющей их.*/
